@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" media="print" href="print.css">
+    <style>
+        .parent {
+            display: flex;
+            justify-content:space-between;
+            flex-direction:row;
+            align-items:center;
+            flex-wrap:wrap;
+            height:100vh;
+        }
+        .parent > div{
+            /* //default */
+            background-color: blue; 
+            height: 30vh;
+            border:3px solid black;
+            width: 30%;
+        }
+        @media screen and (max-width:599.99px){
+            .parent{
+
+                flex-direction: column;
+            }
+        }
+        @media screen and (min-width:600px){
+            .parent{
+                flex-direction: row;
+            }
+        }
+
+        @media print {
+
+        }
+
+
+
+        /* ///////////////////test-media-by-bg//////////////////// */
+        /* from small to larage */
+       /* 0 ---> 479px */
+        /* @media screen and (max-width:479.9999px) {
+             div{
+                background-color: black;
+            }
+        } */
+         /* >= 480px  ----> 767.99999
+        min-width:480px and max-width: 767.999 */
+        /* @media screen and (min-width:480px) and (max-width:767.999px) {  */
+        /* @media screen and (min-width:480px) { 
+            div{
+                background-color: brown;
+            }
+        } */
+        /* >=768 */
+        /* @media screen and (min-width:768px) {
+            div{
+                background-color: yellow;
+            }
+        } */
+
+        /* @media screen and (min-width:1024px) {
+            div{
+                background-color: green;
+            }
+        } */
+
+        /* /////////////////////////////////////// */
+        /* @media screen and (max-width: 1024px){
+
+        }
+         @media screen and (max-width: 786px){
+            
+        }
+         @media screen and (max-width: 480px){
+            
+        } */
+
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="card">
+            1
+        </div>
+        <div class="card">
+            2
+        </div>
+        <div class="card">
+            3
+        </div>
+    
+
+    </div>
+</body>
+</html>

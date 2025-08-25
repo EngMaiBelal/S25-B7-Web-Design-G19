@@ -1,0 +1,106 @@
+HTML, CSS, JS, Bootstrap ---> 
+_______________________________________
+A) HTML --> Structure of Web Pages
+_______________________________________
+    1. Introduction to HTML
+        What is HTML?
+        Basic syntax and structure
+        How browsers read HTML
+    2. Essential HTML Elements
+        Headings (<h1> to <h6>)
+        Paragraphs (<p>)
+        Links (<a>)
+        Images (<img>)
+        Lists: ordered & unordered (<ol>, <ul>, <li>)
+    3. Page Structure and Semantics
+        Div and Span
+        Semantic elements: header, nav, main, section, article, footer
+    4. Tables and Forms
+        Tables: table, tr, td, th
+        Forms: form, input, textarea, select, button    
+        Form attributes and validation basics
+    5. Multimedia and Embeds
+        Adding audio and video
+        Embedding content with <iframe>
+_______________________________________
+B) CSS --> Styling and Layout
+_______________________________________
+    1. Introduction to CSS
+        What is CSS?
+        Ways to apply CSS (inline, internal, external)
+    2. CSS Basics
+        Selectors and specificity
+        Colors, backgrounds, borders
+        Typography: fonts, sizes, spacing
+    3. The Box Model
+        Content, padding, border, margin
+        Display types: block, inline, inline-block, none
+        Positioning: static, relative, absolute, fixed
+
+    4. Layout Techniques
+        Flexbox: containers, items, alignment
+        Grid: creating rows and columns, auto and fixed sizing
+        Media queries and responsive design basics
+    5. Transitions and Animations
+        transition properties
+        @keyframes and CSS animations
+_______________________________________
+C) Bootstrap --> Rapid Styling Framework
+_______________________________________
+    1. Introduction to Bootstrap
+        What is Bootstrap?
+        Setting up Bootstrap (CDN vs local)
+        Mobile-first design
+
+    2. Bootstrap Layout System
+        Container, row, and column structure
+        Responsive breakpoints
+        Grid
+
+    3. Components and Utilities
+        Buttons, cards, navbars, modals, forms
+        Alerts, badges, tooltips, progress bars
+        Utility classes: spacing, colors, text alignment, display
+_______________________________________
+D) JavaScript --> Interactivity and Logic
+_______________________________________
+    1. Introduction to JavaScript
+        What is JavaScript?
+        How to link JS to HTML
+        Basic syntax and rules
+    2. JavaScript Fundamentals
+        Variables: var, let, const
+        Data types
+        Operators: arithmetic, logical, comparison
+        Conditionals: if, else, switch
+        Loops: for, while, do...while
+    3. Functions
+        Declaring and calling functions
+        Parameters and return values
+        Arrow functions
+
+    4. DOM Manipulation
+        What is the DOM?
+        Selecting elements: getElementById, querySelector, etc.
+        Modifying elements and attributes
+        Adding event listeners and handling events
+
+    5. Arrays and Objects
+        Creating and accessing arrays
+        Common array methods: map, filter, forEach, push, pop
+        Objects and their properties/methods
+_____________________________________________________________
+
+Score  --> 100%
+_______________________
+
+30% حضورك وتفاعلك وsession tasks
+interview
+
+Task HTML 10%
+Task CSS 20%
+Task Bootstrap 20%
+Tasks Js 20%
+
+
+

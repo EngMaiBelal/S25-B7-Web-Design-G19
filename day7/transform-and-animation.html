@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- animate css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <style>
+        .container{
+            background-color: black;
+            height:100vh;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .card{
+            width:30%;
+            background-color: white;
+            height: 40vh;
+
+            animation-name: ex;
+            animation-duration: 5s;
+            animation-delay: 2s;
+            animation-iteration-count:2;
+            animation-direction: alternate;
+            animation-timing-function: ease-in-out;
+            /* --> start style element before animation  */
+            /* animation-fill-mode: backwards;  */
+            /* --> start style element after animation  */
+            /* animation-fill-mode: forwards;  */
+            animation-fill-mode: both;
+
+        }
+        @keyframes ex {
+            /* from{background-color: red; width:30%}
+            to{background-color: blue; width:70%} */
+            0%{background-color: red;}
+            /* 25%{background-color: pink;} */
+            50%{background-color: blue;}
+            /* 75%{background-color: green;} */
+            100%{background-color: yellow;}
+        }
+         img{
+            /* width: 100%;
+            border-radius: 20%;
+            transform: rotate(-20deg);
+            transition-property: transform;
+            transition-duration: 0.5s; */
+            /* transition-delay: 3s;
+            transition-timing-function: ease-in-out; */
+            /* transition: transform 0.5s, border 1s; */
+            /* transition: transform 0.5s ease-in-out 3s; */
+        }
+        img:hover{
+            /* transform ---> rotate, scale, skew, translate */
+            /* transform: rotate(0deg); */
+            /* border-left: 3px solid red; */
+        }
+
+        /* :root{
+            --main-color: white;
+            --main-bg: green;
+            --main-font-size: 1.5rem;
+            --secondery-font-size: 1rem;
+        }
+       .sec2{
+            background-color: var(--main-bg);
+            color: var(--main-color);
+        } */
+
+        .main-color{
+            color:red;
+        }
+        .secondery-color{
+            color: blue
+        }
+
+    </style>
+</head>
+<body>
+    <!-- transform, animation -->
+    <!-- <div class="container">
+        <div class="card">
+            <img src="../day6/images/person-m-7.webp" alt="">
+        </div>
+    </div> -->
+    <!-- animation -->
+    <!-- <h1 style="text-align: center;" class="animate__animated animate__heartBeat animate__delay-2s animate__slow animate__infinite">CSS Animate</h1> -->
+
+    <!-- variables -->
+     <div class="sec2">
+        <h2 class="main-color">test variable</h2>
+        <p class="secondery-color">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni neque alias debitis rem et! Officia, itaque. Illo, distinctio ab fugit pariatur repellat veniam fugiat, voluptatum aut vel earum eveniet ipsa.</p>
+     </div>
+</body>
+</html>
+<!-- 3d transform, matrix, text-justify, cubic, prefix property -->
+
+<!-- 
+    align items -- y-axis 
+    justify-content -- x-axis
+    align-self -- y-axis 
+-->

@@ -1,0 +1,220 @@
+*, html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .parent{
+    width: 500px;
+    height:300px;
+    border: 2px solid;
+    padding: 5px;
+    margin: 7px;
+} */
+/* table{
+    border-collapse: collapse;
+    width:100%;
+    height: 30vh;
+}
+td{
+    border-bottom: 2px solid;
+    font-size: 40px;
+}
+tr:nth-child(even){
+    background-color: aqua;
+} */ 
+/****************************************************/
+/* pseudo-element  */
+/***********************************/
+/* selector::pseudo-element {
+  property: value;
+} */
+/* p::first-line{
+    color: red;
+} */
+
+/* p::first-letter{
+    color: red
+} */
+
+/* before, after, marker, selection, placeholder */
+/* ul li::marker{
+    color:red
+} */
+/****************************************************/
+/* Attr. selector  */
+/***********************************/
+/* img[alt="user-icon"]{
+    border:2px solid black;
+} */
+/* a[target]{
+    text-decoration: none;
+    color: red;
+} */
+/* [title]{
+    color:red
+} */
+ /*Same value*/
+ /* [title="link"]{
+    color:red
+} */
+ /*contain specific word */
+ /* will match elements with title="link", title="summer link", and title="link new", 
+ but not title="my-link" or title="link5". */
+ [title~="link"] { 
+     color:red;
+}
+/* ///////////////////////////////////////////// */
+/* title="link"
+title="link-" */
+[title|="link"] {
+  background: yellow;
+}
+
+/*start with value*/
+[title^="link"] {
+  background: yellow;
+}
+
+/*end with value*/
+[title$="link"] {
+  background: yellow;
+}
+/*contains value*/
+[title*="link"] {
+  background: yellow;
+}
+
+/******************************position css******************************/
+ /* div{
+    width: 200px;
+    height:200px;
+    border: 2px solid black;
+    margin: 10px;
+    position:absolute;
+
+ } */
+.red{
+    /* border-radius: 50%; */
+    /* background-color: red; */
+    /* position: fixed; */
+    /* top, right, bottom, left */
+    /* bottom: 0px;
+    right: 0px; */
+    /* left: 5px;
+    top:5px;
+    z-index: 3; */
+
+ }
+  .green{
+    /* background-color: green; */
+    /* position: absolute;
+    bottom: 0;
+    right: 0; */
+
+    /* position:relative;
+    left: 20px;
+    top: 10px; */
+    /* position: sticky;
+    top: 8px; */
+     /* left: 15px;
+    top:15px;
+    z-index: 4; */
+
+ }
+  /* .blue{
+    background-color: blue;
+    left: 25px;
+    top:25px;
+    z-index: -1;
+
+ } */
+  /* .orange{
+    background-color: orange;
+    left: 30px;
+    top:30px;
+    z-index: -2;
+ } */
+/* .yellow{
+    background-color: yellow;
+    position: relative;
+    z-index: -5;
+} */
+
+/* green, red, blue, orange, yellow */
+ /* 1) fixed 
+     - remove from document flow, 
+    - still show in the scrolling, 
+    - view port */
+
+    /* 2) absolute
+    - remove from document flow 
+    - disappered when scrolling
+    - view port */
+    
+    /* 3) relative
+    - still in the document flow 
+    - disappered when scrolling
+    - move from it`s position */
+
+    /* 4) sticky
+    - still in the document flow 
+    - start fixed scrolling based on directions */
+
+/******************************position with parent css******************************/
+.parent{
+    border: 2px solid;
+    width: 250px;
+    height: 300px;
+    margin: 5px;
+    background-color: aquamarine;
+}
+
+div.child{
+    width: 200px;
+    height:200px;
+    border: 2px solid black;
+    margin: 10px; 
+    padding: 10px;
+}
+
+.red{
+    background-color: red;
+    /* position:fixed;
+    bottom:0;
+    right:0; */
+}
+/* //////////////////// parent - absolute ////////////////////////// */
+.parent-green{
+    position: relative;
+}
+.green{
+    background-color: green;
+    /* position: sticky;
+    top: 0px; */
+    position: absolute;
+    bottom: 0;
+    right:0;
+
+}
+/****************************************/
+.blue{
+    background-color: blue;
+}
+.orange{
+    background-color: orange;
+}
+
+
+/* fixed --> donot affect with parent*/
+/* sticky --> end at the end of parent*/
+
+/* 2) absolute */
+    /* A) No parent, parent static
+        - remove from document flow 
+        - disappered when scrolling
+        - view port */
+        /* like - fixed without scrolling behaviour */
+
+    /* B) parent not static
+        - positioned Child will be relative to it`s parent */

@@ -1,0 +1,6 @@
+
+// set, maps, for in for of 
+// method array iterators  with
+// function // call, bind, apply, constructor, closuer
+// grid 
+// number methods

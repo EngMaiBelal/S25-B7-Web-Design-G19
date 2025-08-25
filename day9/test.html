@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid Layout</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <style>
+        .grid {
+            display: grid;
+            grid-template-areas:
+                "a1 a2 a3"
+                "a4 a2 a6"
+                "a4 a5 a6";
+            gap: 1rem;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-auto-rows: 20vh;
+        }
+
+        .area1 {
+            grid-area: a1;
+        }
+
+        .area2 {
+            grid-area: a2;
+        }
+
+        .area3 {
+            grid-area: a3;
+        }
+
+        .area4 {
+            grid-area: a4;
+        }
+
+        .area5 {
+            grid-area: a5;
+        }
+
+        .area6 {
+            grid-area: a6;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="grid">
+            <div class="area1 card text-bg-dark d-flex justify-content-center align-items-center">1</div>
+            <div class="area2 card text-bg-dark d-flex justify-content-center align-items-center">2</div>
+            <div class="area3 card text-bg-dark d-flex justify-content-center align-items-center">3</div>
+            <div class="area4 card text-bg-dark d-flex justify-content-center align-items-center">4</div>
+            <div class="area5 card text-bg-dark d-flex justify-content-center align-items-center">5</div>
+            <div class="area6 card text-bg-dark d-flex justify-content-center align-items-center">6</div>
+        </div>
+    </div>
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

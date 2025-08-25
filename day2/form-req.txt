@@ -1,0 +1,6 @@
+submit in another afile
+data donot show in url 
+no auto complete
+radio, check box
+pattern password
+deadline 9 صباحا الثلاثاء 

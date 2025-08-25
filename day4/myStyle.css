@@ -1,0 +1,194 @@
+/* body{
+    font-family:Arial, Helvetica, sans-serif;
+} */
+
+/* .pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+} */
+
+
+/* .section{
+    color: red
+} */
+
+/* div.section{
+    color:blue
+} */
+
+
+/* div .section{
+    color: purple
+} */
+/* p{
+    color:red
+} */
+/* #main{
+    color:blue
+ } */
+  .section{
+    /* font-family: "Pacifico", cursive; */
+    /* color:white; */
+    /* background-color: black; */
+    border: 5px solid purple;
+    /* outline: 3px solid red;
+    outline-offset: 5px; */
+    /* width, style, color */
+    /* border-style: solid dotted dashed groove;
+    border-width: 5px;
+    border-color: black; */
+    /* border-bottom: 2px solid red;
+    border-top: 3px dotted black; */
+    border-radius: 7px;
+    width: 50%;
+    margin:auto;
+    /* box-shadow: 6px 6px red; */
+  }
+
+  /* .section button{
+    width: 100px;
+    padding: 5px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 22px;
+  } */
+
+.section button{
+    width: 100px;
+    height:100px;
+    padding: 5px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 50%;
+  }
+  .section button:hover{
+    background-color: rgba(44, 44, 201, 0.527);
+    color:black;
+    /* width: 200px; */
+
+  }
+
+p{
+    text-align: justify;
+    line-height: 20px;
+    word-spacing: 10px
+}
+span{
+    vertical-align: sub;
+}
+a{
+    text-decoration: none;
+    font-size: 25px;
+}
+#main{
+    text-transform: uppercase;
+}
+
+h2{
+    letter-spacing: 5px;
+}
+
+/*combinator Selectors*/
+/* direct child */
+/* div > p { 
+  background-color: yellow;
+} */
+
+/* any child*/
+/* div p { 
+  background-color: yellow;
+} */
+
+/* Next Sibling*/
+/* div + p { 
+  background-color: yellow;
+} */
+
+/* all sibling p after the div*/
+/* div ~ p {
+  background-color: yellow;
+} */
+
+/* Pseudo-classes */
+/* selector:state{
+
+} */
+ /* a:link{
+    color: red;
+ }
+
+ a:visited{
+    color: green;
+ }
+ a:hover{
+    color: yellow
+ }
+  a:active{
+    color: rgb(15, 0, 128);
+ } */
+  #button{
+    display:inline-block;
+    width: 100px;
+    /* height:100px; */
+    border-radius: 5px;
+    background-color: blue;
+    color:white;
+    padding:5px;
+    text-decoration: none;
+
+  }
+
+   #button:hover{
+    background-color: rgba(44, 44, 201, 0.527);
+    color:black;
+    /* width: 200px; */
+
+  }
+  #button:active{
+    /* ... */
+  }
+
+  p{
+    display: none;
+  }
+  .demo:hover + p{
+    display:block;
+    background-color: yellow;
+  }
+
+/* /////////////////////////////////////////////////////// */
+.main-color{
+    color: white
+}
+.secondery-color{
+    color: blue
+}
+.main-bg{
+    background-color: blueviolet;
+}
+.secondery-bg{
+    color:rgb(1, 1, 40)
+}
+
+
+  /* reset style */
+
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+    }
+
+
+  /* style nav */
+
+ul li{
+  display:inline-block;
+  margin-left: 5px
+}
+
+
+  /* header */

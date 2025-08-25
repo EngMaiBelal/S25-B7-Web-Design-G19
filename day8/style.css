@@ -1,0 +1,52 @@
+/* .team-cards{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+} */
+
+/* .card-team {
+   border: 1px solid red;
+   width: 18rem;
+} */
+
+
+/* .position__relative */
+.custome-btn{
+    /* width: 20rem; */
+    /* color:white; */
+    font-size: 2rem;
+}
+
+.custome-btn:hover{
+    color: blue;
+    background-color: black;
+}
+
+.sec1,.sec2{
+    height:100vh;
+}
+
+.sec1{
+    background-color: blue;
+}
+
+.sec2{
+    background-color: red;
+}
+
+.main-container{
+    width: 50%;
+    margin: auto;
+    /* height: 200px;
+    padding: 5px;
+    border: 3px solid red */
+}
+/* 3d transform, matrix */
+
+.my-card{
+    width:30% !important;
+}
+
+.image-card img{
+    width:50%;
+}

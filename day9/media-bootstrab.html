@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="assets/css/bootstrap.min.css"> -->
+
+    <style>
+        .parent{
+            display:flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 10px;
+        }
+        .card{
+            height:20vh; 
+            width: 30%;
+            background-color: black;
+            color: white;
+        }
+
+        @media screen and (max-width: 480px){
+            .parent{
+                flex-direction:column
+            }
+            .card{
+                width: 100%;
+            }
+        }
+
+        @media screen and (min-width:481px){
+        .parent{
+                flex-direction:row
+            }
+            .card{
+                width: 40%;
+            }
+        }
+
+        @media screen and (min-width:760px){
+            .parent{
+                flex-direction:row
+            }
+             .card{
+                width: 30%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <div class="container">
+        <div class="row">
+            <div class="card col-12 col-md-6 col-lg-4">
+                <img src="assets/images/person-f-12.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card’s
+                        content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card col-12 col-md-6 col-lg-4 ">
+                <img src="assets/images/person-f-12.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card’s
+                        content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card col-12 col-md-6 col-lg-4 ">
+                <img src="assets/images/person-f-12.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card’s
+                        content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card col-12 col-md-6 col-lg-4 ">
+                <img src="assets/images/person-f-12.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card’s
+                        content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <div class="container">
+        <div class="parent">
+           <div class="card " >1</div>
+           <div class="card " >2</div>
+           <div class="card " >3</div>
+           <div class="card " >4</div>
+           <div class="card " >5</div>
+           <div class="card " >6</div>
+        </div>
+    </div>
+
+
+    <!-- <script src="assets/js/bootstrap.bundle.min.js"></script> -->
+</body>
+
+</html>

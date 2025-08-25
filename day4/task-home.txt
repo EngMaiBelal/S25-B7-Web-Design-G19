@@ -1,0 +1,11 @@
+task-2 https://templatemo.com/tm-593-personal-shape
+---------------------------
+sections 
+---------------------------
+1- nav home,about, contact in the center
+2- main header in backaground image
+3- About Me without image
+4- form section 
+5- footer text in the center
+
+الخميس صباحا الساعه 9
