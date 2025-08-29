@@ -1,0 +1,16 @@
+difference between html collection and node list 
+1- to-do list css
+2- form validation without any html validation
+    // task -- > day 4
+
+    // name required (3 --> 20 )
+    // email--->(type = text) required, pattern
+    // phone ---> required , pattern egypt
+    // password--> required, regx
+    // span --> message to user
+    // sweet alert
+
+    
+الخميس الساعه 9 صباحا
+الخميس الساعه 12 بالليل 
+day 5 --> day 5 updated

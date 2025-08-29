@@ -1,4 +1,6 @@
-$categories = {
+// console.log(categories.subCategories.samsung[0].colors)
+
+categories = {
     'Id' : 1,
     'name' : 'mobiles',
     'subCategories' : {
@@ -31,8 +33,7 @@ $categories = {
                 'madeIn' : {'counrty' : 'china'},
                 'colors' : [
                     {'primary' : 'black'},
-                    {
-                        'secondaryColors' :
+                    {'secondaryColors' :
                                             [
                                                 'red',
                                                 'blue'
@@ -44,3 +45,9 @@ $categories = {
         
     }
 };
+
+
+console.log(categories.subCategories.samsung[0].colors.secondaryColors[0])
+
+// 11--> red
+//25 --> china

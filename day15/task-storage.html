@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- rest css -->
+    <style>
+        .active{
+            opacity:1;
+        }
+        div{
+            background-color: yellow;
+            width: 800px;
+            height: 300px;
+            margin:auto
+        }
+        ul{
+            width: 50%;
+            margin:auto
+        }
+        ul li {
+            width: 100px;
+            height:100px;
+            border-radius: 50%;
+            list-style-type: none;
+            display: inline-block;
+            opacity: 0.6;
+
+        }
+        li.one{
+            background-color: rgb(127, 190, 9);
+        }
+        li.two{
+            background-color: blue;
+        }
+        li.three{
+            background-color: rgb(156, 11, 11);
+        }
+        li.four{
+            background-color: rgb(4, 2, 19);
+        }
+        ul li:hover{
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+
+    <ul>
+        <li class="one list" id="first"></li>
+        <li class="two list"></li>
+        <li class="three list"></li>
+        <li class="four list"></li>
+    </ul>
+    <div id="demo">
+
+    </div>
+    
+    <script>
+        let lists = document.querySelectorAll(".list");
+        let demo = document.getElementById("demo");
+        lists.forEach(function(list){
+            list.onclick = function(){
+                let color= window.getComputedStyle(list).backgroundColor;
+                localStorage.setItem('bg', color);
+                demo.style.backgroundColor = localStorage.getItem('bg');
+            
+            }
+
+            if(localStorage.getItem("bg")){
+                demo.style.backgroundColor = localStorage.getItem("bg");
+            }
+        });
+
+    </script>
+</body>
+</html>

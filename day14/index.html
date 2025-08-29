@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *, html{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        #upBtn{
+            width: 100px;
+            height:100px;
+            border-radius: 5px;
+            position: fixed;
+            bottom: 2px;
+            right:2px;
+            background-color: blue;
+            color: white;
+            border: 0px;
+            display: none;
+        }
+        #sec1{
+            background-color: black;
+            color:white;
+        }
+        #sec2{
+            background-color: red;
+            color:white;
+        }
+        div{
+            height: 100vh
+        }
+    </style>
+</head>
+<body>  
+    <div id="sec1">
+        <h1>BoM</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus, nostrum ea itaque molestiae ullam sit mollitia. Quaerat temporibus, animi autem reiciendis ut quo exercitationem. Cumque blanditiis totam veniam dolorem deleniti.</p>
+        <button onclick="openWin()">open new window</button>
+        <button onclick="backStep()">Back</button>
+        <button onclick="forwardStep()">Forward</button>
+        <button onclick="clearTime()">clear</button>
+        <p id ="demo"></p>
+    </div>  
+    <div id="sec2">
+
+    </div>
+
+    <button id="upBtn">click</button>
+    <script src="plugin.js"></script>
+</body>
+</html>
